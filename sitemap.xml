@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://chalia-onlypins.github.io/onlypinspr001/</loc>
+    <loc>https://onlypinspr001.pages.dev/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://chalia-onlypins.github.io/onlypinspr001/og-image.png</image:loc>
+      <image:loc>https://onlypinspr001.pages.dev/og-image.png</image:loc>
       <image:title>온리핀스 — 카드 없이 간편결제로 상품권</image:title>
       <image:caption>북앤라이프 도서문화상품권·컬쳐랜드·신세계·롯데백화점 모바일상품권</image:caption>
     </image:image>

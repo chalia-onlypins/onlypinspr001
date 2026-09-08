@@ -4,4 +4,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chalia-onlypins.github.io/onlypinspr001/sitemap.xml
+Sitemap: https://onlypinspr001.pages.dev/sitemap.xml
