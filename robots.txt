@@ -1,0 +1,7 @@
+# 온리핀스 — 상품권 4종 홍보 랜딩
+# 홍보 목적이므로 모든 검색엔진에 열어 둔다.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://chalia-onlypins.github.io/onlypinspr001/sitemap.xml
