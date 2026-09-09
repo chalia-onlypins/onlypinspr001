@@ -1,5 +1,37 @@
 # 온리핀스 — 상품권 4종 홍보 랜딩
 # 홍보 목적이므로 모든 검색엔진에 열어 둔다.
+#
+# ⚠️ Cloudflare 가 「AI 봇 관리」를 켜 두면 이 내용 «앞에» Managed robots.txt 를 덧붙인다.
+#    그러면 User-agent: * 그룹이 둘이 되어 크롤러마다 해석이 갈릴 수 있다.
+#    그래서 주요 검색 크롤러는 «각자 그룹»으로 따로 적는다 — 가장 구체적인 그룹이 이긴다.
+
+# 네이버 — Yeti 가 현행 이름이고 NaverBot 은 옛 이름이다. 둘 다 적어 둔다.
+User-agent: Yeti
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+# 다음(카카오) — 크롤러 이름은 «Daumoa» 다. 「Daum」으로 적으면 아무 데도 안 걸린다.
+User-agent: Daumoa
+Allow: /
+
+User-agent: Daumoa-image
+Allow: /
+
+# 구글
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+# 그 밖
+User-agent: bingbot
+Allow: /
 
 User-agent: *
 Allow: /
