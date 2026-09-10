@@ -37,3 +37,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://adpr0001.onlypins.co.kr/sitemap.xml
+Sitemap: https://adpr0001.onlypins.co.kr/feed.xml

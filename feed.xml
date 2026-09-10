@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>온리핀스</title>
+  <subtitle>북앤라이프 도서문화상품권·컬쳐랜드·신세계·롯데백화점 모바일상품권</subtitle>
+  <link href="https://adpr0001.onlypins.co.kr/"/>
+  <link rel="self" href="https://adpr0001.onlypins.co.kr/feed.xml"/>
+  <id>https://adpr0001.onlypins.co.kr/</id>
+  <updated>2026-09-10T09:00:00+09:00</updated>
+  <author><name>온리핀스</name></author>
+  <entry>
+    <title>온리핀스 — 카드 없이 간편결제로 상품권</title>
+    <link href="https://adpr0001.onlypins.co.kr/"/>
+    <id>https://adpr0001.onlypins.co.kr/</id>
+    <updated>2026-09-10T09:00:00+09:00</updated>
+    <summary>북앤라이프 도서문화상품권·컬쳐랜드·신세계·롯데백화점 모바일상품권</summary>
+  </entry>
+  <entry>
+    <title>온리핀스 워드로브 — 명품 가방·신발·패션 1,515종</title>
+    <link href="https://adpr0002.onlypins.co.kr/"/>
+    <id>https://adpr0002.onlypins.co.kr/</id>
+    <updated>2026-09-10T09:00:00+09:00</updated>
+    <summary>프라다·구찌·에르메스·셀린느·미우미우부터 나이키·뉴발란스까지</summary>
+  </entry>
+  <entry>
+    <title>온리핀스 특가 — 상품권·명품·먹거리 한자리에</title>
+    <link href="https://adpr0003.onlypins.co.kr/"/>
+    <id>https://adpr0003.onlypins.co.kr/</id>
+    <updated>2026-09-10T09:00:00+09:00</updated>
+    <summary>도서문화상품권 7종·구찌·생로랑·크리스피크림·배스킨라빈스</summary>
+  </entry>
+  <entry>
+    <title>온리핀스 — 본인확인 4단계와 간편결제 구조</title>
+    <link href="https://adpr0004.onlypins.co.kr/"/>
+    <id>https://adpr0004.onlypins.co.kr/</id>
+    <updated>2026-09-10T09:00:00+09:00</updated>
+    <summary>PASS·ARS·통화·패스키. 계좌 비밀번호와 OTP는 묻지 않습니다</summary>
+  </entry>
+</feed>

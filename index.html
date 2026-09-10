@@ -125,7 +125,7 @@
           "name": "상품권 환불이 되나요?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "PIN을 아직 열어보지 않았고 유효기간이 남아 있으면 구매가 전액 환불됩니다. 고객센터(02-498-4065)로 요청하시면 통상 1~2영업일 안에 원결제수단으로 처리됩니다."
+            "text": "PIN을 아직 열어보지 않았고 유효기간이 남아 있으면 구매가 전액 환불됩니다. 앱 「고객센터」로 요청하시면 통상 1~2영업일 안에 원결제수단으로 처리됩니다."
           }
         }
       ]
@@ -615,6 +615,8 @@ img{max-width:100%; height:auto}
   font-size:15px; font-weight:800; letter-spacing:-.02em;
   text-decoration:none; border-radius:11px;
 }
+/* ⛔ 2026-09-10 Master 지시로 고정 바의 «전화» 버튼을 뺐다 — 전화 연결·번호를 전부 없앴다.
+   규칙은 남겨 둔다: 되살릴 때 대비 · 지워도 얻는 것이 없다(어차피 쓰는 곳이 없으면 안 그려진다). */
 .ubar .ub-tel{
   flex:0 0 auto; padding:0 15px;
   color:var(--u-ink); background:transparent;
@@ -728,6 +730,15 @@ a.xl:hover{border-bottom-color:currentColor}
   section{animation:none !important; transform:none !important}
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "온리핀스",
+  "url": "https://adpr0001.onlypins.co.kr/",
+  "publisher": { "@type": "Organization", "name": "온리핀스", "url": "https://onlypins.co.kr" }
+}
+</script>
 </head>
 <body>
 
@@ -1094,7 +1105,7 @@ a.xl:hover{border-bottom-color:currentColor}
       <div class="ti">
         <span class="ck"><svg><use href="#i-check"></use></svg></span>
         <span class="tx"><b>물어보실 곳이 셋입니다.</b>
-          전화 <b>02-498-4065</b>(평일 10:00~18:00) · 이메일 <b>info@onlypins.co.kr</b>(접수 24시간) ·
+          앱 <b>「고객센터」</b> · 이메일 <b>info@onlypins.co.kr</b>(접수 24시간) ·
           카카오톡 채널 <b>「온리핀스」</b>(챗봇 24시간).
           확인 전화는 <b>대표번호와 같은 번호</b>에서만 갑니다 —
           <a class="xl" href="https://adpr0004.onlypins.co.kr/">묻지 않는 것들</a>도 함께 봐 두시면 좋습니다.</span>
@@ -1115,7 +1126,7 @@ a.xl:hover{border-bottom-color:currentColor}
       <dt>상품권은 언제 받나요?</dt>
       <dd>결제 완료 후 1~2분 안에 PIN·교환권이 문자로 발송됩니다. 구매·결제·발송은 24시간 자동으로 진행됩니다. 문자가 오지 않으면 대개 통신사 스팸 차단이 원인이므로 스팸함을 확인해 주세요.</dd>
       <dt>상품권 환불이 되나요?</dt>
-      <dd>PIN을 아직 열어보지 않았고 유효기간이 남아 있으면 구매가 전액 환불됩니다. 고객센터(02-498-4065)로 요청하시면 통상 1~2영업일 안에 원결제수단으로 처리됩니다.</dd>
+      <dd>PIN을 아직 열어보지 않았고 유효기간이 남아 있으면 구매가 전액 환불됩니다. 앱 「고객센터」로 요청하시면 통상 1~2영업일 안에 원결제수단으로 처리됩니다.</dd>
     </dl>
   </div>
 </section>
@@ -1147,7 +1158,7 @@ a.xl:hover{border-bottom-color:currentColor}
 
     <div class="callbox">
       <div class="cl">고객센터</div>
-      <a class="cn" href="tel:0224984065">02-498-4065</a>
+      <a class="cn" href="https://onlypins.co.kr">앱에서 문의</a>
       <div class="ch">상담 평일 10:00~18:00<br>구매·발송은 24시간 자동</div>
     </div>
   </div>
@@ -1164,13 +1175,6 @@ a.xl:hover{border-bottom-color:currentColor}
 
 <div class="ubar" id="ubar">
   <div class="ubar-in">
-    <a class="ub-tel" href="tel:0224984065" aria-label="고객센터 02-498-4065 전화하기">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/>
-      </svg>
-      <span>전화</span>
-    </a>
     <a class="ub-cta" href="https://onlypins.co.kr">온리핀스 앱 열기</a>
   </div>
 </div>
